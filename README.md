@@ -4,7 +4,7 @@
 
 # To Install
 
-'Download' the datapack to your device.
+'Download' the TMF620_Multipack.json and TMF620_AttributeCategory.json datapack files to your device.
 
 Open the target org where the datapacks will be installed and navigate to the 'Omnistudio Integration Procedures' page.
 
@@ -20,9 +20,9 @@ Please note: Dataraptors do not require activating.
 
 When the activation is complete and the selected components have all activated, click 'Done'.
 
-Repeat this process for each datapack.
+Repeat this process for both datapack files.
 
-# Process Package Includes
+# TMF620_Multipack Package Includes
 # Integration Procedure 
 SFITMForumCatalog
 
@@ -79,5 +79,6 @@ TMF-TMForumTransformCatalogRequest
 
 TMF-TMForumTransformCatalogResponse
 
+# TMF620_AttributeCategory Package Includes
 # Attribute Category
 TMForum
