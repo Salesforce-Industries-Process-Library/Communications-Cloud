@@ -1,6 +1,6 @@
 # Communications-Cloud
 
-## Permisison Sets
+## Permission Sets
 
 The `SamplePermissionSets.zip` contains the following Permission Sets:
 - Base_Runtime_ReadOnly
