@@ -3,6 +3,7 @@
 ## Permission Sets
 
 The `SamplePermissionSets.zip` contains the following Permission Sets:
+- Base_Runtime_ReadOnly_CC_User
 - Base_Runtime_ReadOnly
 - Base_Runtime_ViewAndManageBillPayment_CC_User
 - Base_Runtime_ViewAndManageBillPayment
