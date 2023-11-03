@@ -42,3 +42,9 @@ Follow the below steps to deploy the `SamplePermissionSets.zip` in an Org:
 3. Check the Single Package checkbox.
 4. Click Next -> Deploy
 5. In the Results section, verify -> success: <span style="color: green;">true</span>
+
+## ESM Custom Eligibility Matrix Implementation
+
+Create an apex class `ESMCustomMatrixEligibilityImpl` and copy contents [from](ESMCustomMatrixEligibilityImpl/ESMCustomMatrixEligibilityImpl.cls).
+
+
