@@ -9,4 +9,4 @@ Information and downloads for additional Communications Cloud processes are orga
 
 Branch content:
 - **Summer-23 —** Sample permission sets.
-- **Spring-23 —** TM Forum APIs and sample permission sets.
+- **Spring-23 —** TM Forum APIs and sample permission sets. TMF files are applicable only for this release
