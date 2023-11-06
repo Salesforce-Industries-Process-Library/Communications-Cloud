@@ -65,6 +65,7 @@ When the activation is complete and the selected components have all activated, 
 Repeat this process for both datapack files.
 
 # TMF620_Multipack Package Includes
+# Note : TMF related files are applicable only for Spring '23 release.
 # Integration Procedure 
 SFITMForumCatalog
 
