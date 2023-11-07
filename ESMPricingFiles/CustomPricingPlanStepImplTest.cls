@@ -1,6 +1,3 @@
-/**
- * Created by somalmac on 6/18/18.
- */
 @isTest(SeeAllData=false)
 public class CustomPricingPlanStepImplTest {
 
