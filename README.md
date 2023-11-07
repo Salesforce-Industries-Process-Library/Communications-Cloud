@@ -48,3 +48,9 @@ Follow the below steps to deploy the `SamplePermissionSets.zip` in an Org:
 Create an apex class `ESMCustomMatrixEligibilityImpl` and copy contents [from](ESMCustomMatrixEligibilityImpl/ESMCustomMatrixEligibilityImpl.cls).
 
 
+## ESM Attribute and Location Based Pricing
+
+The `ESMPricingFiles` folder contains the files required for attribute based and location based pricing in ESM. Create apex classes in this order:
+1. Create an apex class `PricingPlanHelper` and copy contents from [this](ESMPricingFiles/PricingPlanHelper.cls)
+2. Create an apex class `CpqNextPricingPlanHelper` and copy contents from [this](ESMPricingFiles/CpqNextPricingPlanHelper.cls)
+3. Create an apex class `CustomPricingPlanStepImpl` and copy contents from [this](ESMPricingFiles/CustomPricingPlanStepImpl.cls)
