@@ -8,5 +8,9 @@ Information and downloads for additional Communications Cloud processes are orga
 3. Review the README for contents for each download and instructions if applicable.
 
 Branch content:
+- **Spring-24** 
+    - Sample permission sets
+    - ESM Custom Eligibility Matrix Implementation
+    - ESM Attribute and Location Based Pricing
 - **Summer-23 —** Sample permission sets.
 - **Spring-23 —** TM Forum APIs and sample permission sets.
