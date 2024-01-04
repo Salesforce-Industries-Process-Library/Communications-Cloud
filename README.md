@@ -13,4 +13,4 @@ Branch content:
     - ESM Custom Eligibility Matrix Implementation
     - ESM Attribute and Location Based Pricing
 - **Summer-23 —** Sample permission sets.
-- **Spring-23 —** TM Forum APIs and sample permission sets.
+- **Spring-23 —** TM Forum APIs and sample permission sets. TMF files are applicable only for this release
