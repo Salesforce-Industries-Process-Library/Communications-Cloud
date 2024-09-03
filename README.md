@@ -1,16 +1,56 @@
 # Communications-Cloud
 
-Information and downloads for additional Communications Cloud processes are organized in seasonal release branches.
+## Permission Sets
+
+The `SamplePermissionSets.zip` contains the following Permission Sets:
+- Base_Runtime_ReadOnly_CC_User
+- Base_Runtime_ReadOnly
+- Base_Runtime_ViewAndManageBillPayment_CC_User
+- Base_Runtime_ViewAndManageBillPayment
+- CLMInd_Admin_All
+- CLMInd_DocuSign_Runtime_All
+- CLMInd_FA_Runtime_All
+- CLMInd_Runtime_All
+- CPQ_Admin_All
+- CPQ_Runtime_CartOperations_CC_User
+- CPQ_Runtime_CartOperations
+- CPQ_Runtime_CPQCartUI
+- CPQ_Runtime_InvokeOdinNotification
+- CPQ_Runtime_ViewAndApplyDiscounts
+- DC_Runtime_Shopping_CC_User
+- DC_Runtime_Shopping
+- DocGenInd_Design_All
+- DocGenInd_Docusign_Runtime_All
+- DocGenInd_Runtime_All
+- EPC_Admin_All
+- EPC_Design_All
+- EPC_ReadOnly_All
+- ESM_Runtime_CC_User
+- ESM_Runtime
+- ESM_SelfService_Community_User
+- ESM_SelfService_External_User
+- MSM_Runtime_Agent
+- MSM_Runtime_Customer
+- SFIOmniObjectsPermissions_GuestUser
+- SFIOmniObjectsPermissions
+- SFIOmniObjectsPermissionsAdmin
+
+Follow the below steps to deploy the `SamplePermissionSets.zip` in an Org:
+
+1. Go to Workbench -> migration -> Deploy
+2. Choose the SamplePermissionSets.zip file.
+3. Check the Single Package checkbox.
+4. Click Next -> Deploy
+5. In the Results section, verify -> success: <span style="color: green;">true</span>
+
+## ESM Custom Eligibility Matrix Implementation
+
+Create an apex class `ESMCustomMatrixEligibilityImpl` and copy contents [from](ESMCustomMatrixEligibilityImpl/ESMCustomMatrixEligibilityImpl.cls).
 
 
-1. Review the [list of branches](https://github.com/Salesforce-Industries-Process-Library/Communications-Cloud/branches).
-2. Click a branch to see its contents. Each branch has one or more features.
-3. Review the README for contents for each download and instructions if applicable.
+## ESM Attribute and Location Based Pricing
 
-Branch content:
-- **Spring-24** 
-    - Sample permission sets
-    - ESM Custom Eligibility Matrix Implementation
-    - ESM Attribute and Location Based Pricing
-- **Summer-23 —** Sample permission sets.
-- **Spring-23 —** TM Forum APIs and sample permission sets.
+The `ESMPricingFiles` folder contains the files required for attribute based and location based pricing in ESM. Create apex classes in this order:
+1. Create an apex class `PricingPlanHelper` and copy contents from [this](ESMPricingFiles/PricingPlanHelper.cls)
+2. Create an apex class `CpqNextPricingPlanHelper` and copy contents from [this](ESMPricingFiles/CpqNextPricingPlanHelper.cls)
+3. Create an apex class `CustomPricingPlanStepImpl` and copy contents from [this](ESMPricingFiles/CustomPricingPlanStepImpl.cls)
