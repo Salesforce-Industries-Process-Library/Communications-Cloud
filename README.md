@@ -8,6 +8,16 @@ Information and downloads for additional Communications Cloud processes are orga
 3. Review the README for contents for each download and instructions if applicable.
 
 Branch content:
+- **Winter-25** 
+    - Sample permission sets (Public Read Access on vlocity_cmt__CustomObjectMap__c)
+        - Updated the following in zip
+            CPQ_Runtime_CartOperations_CC_User
+            CPQ_Runtime_CartOperations
+            CPQ_Runtime_CPQCartUI
+            CPQ_Runtime_InvokeOdinNotification
+            CPQ_Runtime_ViewAndApplyDiscounts
+            DC_Runtime_Shopping_CC_User
+            DC_Runtime_Shopping
 - **Spring-24** 
     - Sample permission sets
     - ESM Custom Eligibility Matrix Implementation
